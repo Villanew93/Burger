@@ -1,0 +1,60 @@
+body {
+    background: rgb(182, 166, 166);
+}
+
+header {
+    background: rgb(112, 57, 57);
+}
+
+h1 {
+    padding: 10px;
+    color: rgb(11, 27, 61);
+    font-family: fantasy; 
+    font-size: 40px;
+}
+
+h2 {
+    padding: 10px;
+    color: rgb(11, 27, 61);
+    font-family: fantasy; 
+    font-size: 30px;
+}
+
+.button {
+
+    display: inline;
+}
+
+.wrapper {
+    max-width: 67%;
+	margin: 0 auto;
+}
+
+#create {
+    display: flex;
+	justify-content: center;
+	padding-top: 55px;
+	padding-bottom: 40px;
+}
+
+#burgers-available {
+    flex-grow: 1;
+	padding: 0.5em 2em 1.7em 2em;
+	background: rgb(53, 97, 57);
+	margin: 1em 1em 1em 0;
+}
+
+#burgers-ate {
+    flex-grow: 1;
+	background: rgb(44, 43, 43);
+	padding: 0.5em 2em 1.7em 2em;
+	margin: 1em 0 1em 1em;
+}
+
+#burgers-container {
+	display: flex;
+}
+
+
+
+
